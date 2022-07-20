@@ -1,0 +1,132 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+    color: white;
+    background-color:  #27200F ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 20px 3% 4% 3%;
+}
+
+section {
+    padding: 50px 10%;
+    overflow: auto;
+}
+
+/*menu*/
+.menu {
+    margin: 0;
+    padding: 0 10%;
+    text-align: right;
+    background-color: #02421A;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #01501E;
+}
+
+
+/*sekce about me*/
+.aboutme{
+    display: flex;
+    margin-top: 40px;
+}
+
+.leftside{
+    flex: 2;
+    padding: 20px 30px 20px 0;
+}
+
+.photo-aboutme {
+    width: 200px;
+    margin: 0;
+    flex: 1;
+}
+
+/* "tlačítko" learnmore*/
+.learnmore {
+    display: block;
+    padding: 1% 2%;
+    text-align: center;
+    background-color:  #03BED4;
+    width: 35%;
+    margin: 1% 0;
+    text-transform: uppercase;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+.learnmore:hover,
+.learnmore:focus,
+.learnmore:active {
+    background-color: #0DA6BA;
+}
+
+
+/*sekce projects*/
+.projectsflex {
+    display: flex;
+    justify-content: center;
+}
+
+.epicproject,
+.anotherwork,
+.rebrand {
+   background-color: #03BED4;
+   flex-basis: 33%;
+   margin: 5px 15px;
+}
+
+.projects div p {
+    margin: 0 3% 0 3%;
+    padding-bottom: 4%;
+}
+
+.photo {
+    width: 100%; 
+}
+
+/*patička*/
+.paticka {
+    text-align: center;
+    padding: 20px 0;
+}
